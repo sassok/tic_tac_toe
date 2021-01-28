@@ -27,7 +27,10 @@ class Board
 	  puts "Quelle case choisis-tu ? "
 	  print ">"
 	  choice_case = gets.chomp.to_i 
-	  @arr_cases.map { |x| x == choice_case ? current_player.value: x }
+		
+		
+		#@arr_cases.map { |x| x == choice_case ? current_player.value: x }
+	  Show.new.show_board(self)
 	  #2) change la BoardCase jouée en fonction de la valeur du joueur (X ou O)
 	end
   
