@@ -7,7 +7,8 @@ class Player
 	  @player_name = player_name
 	  @player_value = player_value
 	 
-	end
+  end
+end
 
 
 

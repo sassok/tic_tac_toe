@@ -9,4 +9,4 @@ class BoardCase
 	  
 	end
 	
-  end
+end

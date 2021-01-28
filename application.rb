@@ -9,17 +9,17 @@ class Application
   require_relative 'lib/boardcase.rb'
   require_relative 'lib/show.rb'
   
-  Game.new.perform
   
   binding.pry
 
     def perform
       # TO DO : méthode qui initialise le jeu puis contient des boucles while pour faire tourner le jeu tant que la partie n'est pas terminée.
       # 
+      Show.new.perform
   
     end
   
-  end
+end
   
-  
+
   Application.new.perform
